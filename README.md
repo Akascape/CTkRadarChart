@@ -23,7 +23,7 @@ labels = ['Speed', 'Reliability', 'Comfort', 'Safety', 'Efficiency', 'Capacity']
 
 # Create the RadarChart instance
 chart = CTkRadarChart(root, labels=labels)
-chart.pack()
+chart.pack(fill="both", expand=True)
 
 # Add new data
 chart.add_data("A", [90, 70, 90, 75, 60, 80])
