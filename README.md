@@ -1,5 +1,6 @@
 # CTkRadarChart
 A simple widget for customtkinter to display radar chart, made with tkinter canvas. Fully custimasable widget, with resizability and theme colors.
+![screenshot](https://github.com/Akascape/CTkRadarChart/assets/89206401/0d3ecda5-f73d-4d27-b7d7-817cf42905ec)
 
 ## Installation
 ### [<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Akascape/CTkRadarChart?&color=white&label=Download%20Source%20Code&logo=Python&logoColor=yellow&style=for-the-badge"  width="400">](https://github.com/Akascape/CTkRadarChart/archive/refs/heads/main.zip)
