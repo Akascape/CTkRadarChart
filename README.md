@@ -7,7 +7,7 @@ A simple widget for customtkinter to display radar chart, made with only tkinter
 Download the source code, paste the `CTkRadarChart` folder in the directory where your program is present.
 
 ## Usage
-``python
+```python
 import customtkinter
 from CTkRadarChart import *
 
@@ -25,7 +25,9 @@ chart.add_data("A", [90, 70, 90, 75, 60, 80])
 chart.add_data("B", [60, 80, 70, 85, 75, 90])
 
 root.mainloop()
-``
+```
+
+_Note: data should be in a list, maximum value: 100, minimum value: 0_
 
 ## Arguments
 | Parameters | Details |
