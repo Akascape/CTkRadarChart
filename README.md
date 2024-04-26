@@ -13,7 +13,7 @@ from CTkRadarChart import *
 
 root = customtkinter.CTk()
 
-# some labels that are shown at each axis
+# Some labels that are shown at each axis
 labels = ['Speed', 'Reliability', 'Comfort', 'Safety', 'Efficiency', 'Capacity']
 
 # Create the RadarChart instance
@@ -52,3 +52,5 @@ _Note: data should be in a list, maximum value: 100, minimum value: 0_
 - **.configure(*args)**: change parameters of the radar chart
 - **.cget(parameter)**: return the required parameter from the chart
 
+Follow me for more stuff like this: [`Akascape`](https://github.com/Akascape/)
+### That's all, hope it will help!
