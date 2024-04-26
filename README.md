@@ -2,6 +2,10 @@
 A simple widget for customtkinter to display radar chart, made with tkinter canvas. Fully custimasable widget, with resizability and theme colors.
 ![screenshot](https://github.com/Akascape/CTkRadarChart/assets/89206401/0d3ecda5-f73d-4d27-b7d7-817cf42905ec)
 
+**What is a radar chart?**
+
+A radar chart, also known as a spider chart, web chart, is a graphical method used to display multivariate data. It consists of a sequence of equi-angular spokes, with each spoke representing one of the variables. The data length of a spoke is proportional to the magnitude of the variable for the data point relative to the maximum magnitude of the variable across all data points.
+
 ## Installation
 ### [<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Akascape/CTkRadarChart?&color=white&label=Download%20Source%20Code&logo=Python&logoColor=yellow&style=for-the-badge"  width="400">](https://github.com/Akascape/CTkRadarChart/archive/refs/heads/main.zip)
 
