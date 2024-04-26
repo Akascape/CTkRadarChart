@@ -45,7 +45,7 @@ _Note: data should be in a list, maximum value: 100, minimum value: 0_
 | font | font of the text labels |
 
 ## Methods
-- **.add_data(tag, data, color, fill)**: adds new data line in the chart, **tag**: line name; **data**: list of values; **color**: color of line (optional, choses color randomly by default), **fill**: add color in the polygon (optional, true by default)
+- **.add_data(tag, data, color, fill)**: adds new data line in the chart, **tag**: data line name; **data**: list of values; **color**: color of line (optional, choses color randomly by default), **fill**: add color in the polygon (optional, true by default)
 - **.delete_data(tag)**: delete a line from the chart
 - **.update_data(tag, *args)**: update any tag data
 - **.get(tag)**: return data and color of the chart, tag is optional
