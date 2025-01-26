@@ -211,7 +211,7 @@ class CTkRadarChart(tk.Canvas, CTkAppearanceModeBaseClass, CTkScalingBaseClass):
             self.text_color = kwargs.pop("text_color")
 
         if "radial_lines" in kwargs:
-            self.radius_lines = kwargs.pop("radial_lines")
+            self.radial_lines = kwargs.pop("radial_lines")
             if self.radial_lines<=0:
                 self.radial_lines = 1
                 
@@ -244,7 +244,7 @@ class CTkRadarChart(tk.Canvas, CTkAppearanceModeBaseClass, CTkScalingBaseClass):
         if param=="text_color":
             return self.text_color
         if param=="radial_lines":
-            return self.radius_lines          
+            return self.radial_lines          
         if param=="radius":
             return self.radius 
         if param=="num_axes":
