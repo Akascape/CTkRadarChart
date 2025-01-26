@@ -233,27 +233,27 @@ class CTkRadarChart(tk.Canvas, CTkAppearanceModeBaseClass, CTkScalingBaseClass):
 
     def cget(self, param):
         # return required parameter
-        if params=="fg_color":
+        if param=="fg_color":
             return self.fg_color      
-        if params=="bg_color":
+        if param=="bg_color":
             return self.bg_color        
-        if params=="border_width":
+        if param=="border_width":
             return self.border_width   
-        if params=="font":
+        if param=="font":
             return self.font
-        if params=="text_color":
+        if param=="text_color":
             return self.text_color
-        if params=="radial_lines":
+        if param=="radial_lines":
             return self.radius_lines          
-        if params=="radius":
+        if param=="radius":
             return self.radius 
-        if params=="num_axes":
+        if param=="num_axes":
             return self.num_axes
-        if params=="labels":
+        if param=="labels":
             return self.labels
-        if params=="data":
+        if param=="data":
             return self.get()
-        if params=="padding":
+        if param=="padding":
             return self.padding
         return super().cget(param)
 
